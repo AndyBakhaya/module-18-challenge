@@ -1,0 +1,20 @@
+{
+    "name": "module-18-challenge",
+    "version": "1.0.0",
+    "description": "A backend powered by MongoDB for an anonymous social media network.",
+    "main": "server.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node server",
+        "dev": "nodemon server",
+        "seed": "node utils/seed",
+        "heroku-postbuild": "node utils/seed.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^7.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.9"
+    }
+}
